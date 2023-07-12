@@ -6,3 +6,7 @@ class UserSchema(BaseModel):
     name: str
     username: str
     userpassw: str
+
+class DataUser(BaseModel):
+    username: str
+    userpassw: str
